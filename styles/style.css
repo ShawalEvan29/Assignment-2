@@ -143,6 +143,40 @@ header {
 
 }
 
+/* Match section */
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.match {
+    width: 312px;
+    height: 242px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.match-banner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.match-info {
+    margin: 20px;
+
+}
+
+.match-info h3 {
+    text-align: center;
+}
+
+.match-info p {
+    text-align: center;
+}
+
 /* footer section */
 
 footer {
